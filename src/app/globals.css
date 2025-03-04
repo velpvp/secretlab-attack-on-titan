@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+body {
+  color: #fff;
+  background: #000;
+  font-family: Noto Sans KR, sans-serif;
+  min-height: 100vh;
+}
+
+.clip-path-container {
+  position: relative;
+  display: inline-block;
+  padding: 3px;
+  background-color: #9E9167;
+  clip-path: polygon(45px 0, calc(100% - 45px) 0, 100% 45px, 100% calc(100% - 45px), calc(100% - 45px) 100%, 45px 100%, 0 calc(100% - 45px), 0 45px)
+}
+
+.clip-path-wrapper {
+  background-color: black;
+  padding: 10px;
+  clip-path: polygon(45px 0, calc(100% - 45px) 0, 100% 45px, 100% calc(100% - 45px), calc(100% - 45px) 100%, 45px 100%, 0 calc(100% - 45px), 0 45px);
+}
+
+.clip-path-img {
+  display: block;
+  clip-path: polygon(40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px), 0 40px);
+}
+
+.button-shop {
+  background-image: url("/collab_aot_cta_btn.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: var(--colorMain);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 20px 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--black);
+  transition: all 0.3s;
+}
+
+.button-shop:hover {
+  filter: brightness(150%);
+}
