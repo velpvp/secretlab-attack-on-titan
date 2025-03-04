@@ -14,6 +14,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
+        <link
+          rel="shortcut icon"
+          href="/favicon-32x32.webp"
+          type="image/webp"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <link

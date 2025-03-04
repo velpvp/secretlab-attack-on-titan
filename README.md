@@ -29,3 +29,4 @@ Este projeto é uma réplica da página **Secretlab x Attack on Titan**, desenvo
 ## Licença
 
 Este projeto foi desenvolvido para fins educacionais e não tem afiliação com a Secretlab ou Attack on Titan.
+"""
