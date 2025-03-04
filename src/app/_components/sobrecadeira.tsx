@@ -4,7 +4,7 @@ import cadeiraImg2 from "../../../public/aot_feature_2.webp";
 
 export function SobreCadeira() {
   return (
-    <section className="min-h-screen p-3">
+    <section className="min-h-screen p-3 overflow-hidden">
       <div className="pt-32 flex items-center justify-center flex-col lg:flex-row gap-8">
         <div
           className="w-full max-w-[450px] clip-path-container"

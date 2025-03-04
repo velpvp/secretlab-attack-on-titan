@@ -16,7 +16,7 @@ export function Comprar() {
           className="w-full h-full min-h-[1000px] lg:min-h-[100px] object-cover rounded-lg"
         />
       </div>
-      <div className="absolute w-full max-w-[1100px] flex items-center justify-center flex-col lg:flex-row left-1/2 -translate-x-1/2">
+      <div className="absolute w-full max-w-[1100px] flex items-center justify-center flex-col lg:flex-row left-1/2 -translate-x-1/2  overflow-hidden">
         <Image
           src={cadeiraImg}
           alt="Cadeira Secretlab x Attack on Titan"
