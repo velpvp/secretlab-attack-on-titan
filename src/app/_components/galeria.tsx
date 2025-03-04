@@ -6,7 +6,10 @@ import Image from "next/image";
 
 export function Galeria() {
   return (
-    <section className="w-full object-cover mt-32 grid lg:grid-cols-4 duration-300 group">
+    <section
+      className="w-full object-cover mt-32 grid lg:grid-cols-4 duration-300 group"
+      data-aos="fade"
+    >
       <Image
         src={img}
         alt="Secretlab x Attack on Titan"

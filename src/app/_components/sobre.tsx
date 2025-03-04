@@ -2,10 +2,14 @@ export function Sobre() {
   return (
     <section className="min-h-[100vh] w-full lg:min-h-100vh flex items-center justify-center flex-col bg-[url('/collab_aot_bg_info-min.jpg')] bg-cover bg-center bg-no-repeat -z-2">
       <div className="text-center w-full max-w-[540px]">
-        <h2 className="mb-3.5 text-2xl font-bold tracking-wide">
+        <h2 className="mb-3.5 text-2xl font-bold tracking-wide" data-aos="fade">
           SECRETLAB X ATTACK ON TITAN
         </h2>
-        <p className="text-[0.9rem] p-3">
+        <p
+          className="text-[0.9rem] p-3"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           An ode to one of the most popular manga in the world. Secretlab and
           Crunchyroll present the
           <strong> Secretlab TITAN Evo Attack on Titan Edition </strong>

@@ -1,3 +1,4 @@
+import { AosInit } from "./_components/aos-init";
 import "./globals.css";
 
 export const metadata = {
@@ -20,7 +21,10 @@ export default function RootLayout({
           rel="stylesheet"
         ></link>
       </head>
-      <body className="bg-black text-white">{children}</body>
+      <body className="bg-black text-white">
+        {children}
+        <AosInit />
+      </body>
     </html>
   );
 }

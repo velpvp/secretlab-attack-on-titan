@@ -1,6 +1,9 @@
 export function Footer() {
   return (
-    <footer className="pt-10 flex items-center justify-center flex-col text-center">
+    <footer
+      className="pt-10 flex items-center justify-center flex-col text-center"
+      data-aos="fade"
+    >
       <div className="w-full max-w-[80%] p-5 border-b-[1px] border-gray-600 flex items-center justify-center">
         <p>
           ©Hajime Isayama, Kodansha/"ATTACK ON TITAN" Production committee. All

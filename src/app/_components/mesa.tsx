@@ -7,11 +7,21 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 export function Mesa() {
   return (
-    <section className="grid lg:grid-cols-2 max-md:flex-col-reverse items-center justify-center gap-5 min-h-screen pt-32 px-2 lg:px-20">
+    <section className="lg:grid lg:grid-cols-2 flex items-center justify-center flex-col-reverse lg:flex-row gap-5 min-h-screen pt-32 px-2 lg:px-20 overflow-hidden">
       <div className="bg-[url('/aot_chair_catalog_bg.jpg')] min-h-screen rounded-lg p-5 lg:p-10">
-        <div className="border-b-2 border-gray-600 mb-5">
-          <h2 className="text-[3rem] font-bold">SECRETLAB MAGNUS</h2>
-          <p className="text-[1.2rem] font-bold mb-6">
+        <div
+          className="border-b-2 border-gray-600 mb-5"
+          data-aos="fade"
+          data-aos-delay="100"
+        >
+          <h2 className="text-[3rem] font-bold" data-aos="fade">
+            SECRETLAB MAGNUS
+          </h2>
+          <p
+            className="text-[1.2rem] font-bold mb-6"
+            data-aos="fade"
+            data-aos-delay="50"
+          >
             <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
               Attack on Titan
             </span>{" "}
@@ -19,7 +29,11 @@ export function Mesa() {
           </p>
         </div>
         <div className="flex flex-col gap-5 mb-5">
-          <div className="flex items-center justify-start gap-5 text-black bg-white p-5 rounded-lg">
+          <div
+            className="flex items-start flex-col md:flex-row justify-start gap-5 text-black bg-white p-5 rounded-lg"
+            data-aos="fade"
+            data-aos-delay="300"
+          >
             <Image
               src={mesa2}
               alt=""
@@ -43,7 +57,11 @@ export function Mesa() {
               </a>
             </div>
           </div>
-          <div className="flex items-center justify-start gap-5 text-black bg-white p-5 rounded-lg">
+          <div
+            className="flex items-start flex-col md:flex-row justify-start gap-5 text-black bg-white p-5 rounded-lg"
+            data-aos="fade"
+            data-aos-delay="400"
+          >
             <Image
               src={mesa3}
               alt="Secretlab MAGNUS Metal Desk"
@@ -66,8 +84,14 @@ export function Mesa() {
           </div>
         </div>
         <div>
-          <h3 className="text-[2rem] font-bold mb-5">MAGNUS DESK ADD-ONS</h3>
-          <div className="flex items-center justify-start flex-col gap-5 text-black bg-white p-5 rounded-lg max-w-1/3">
+          <h3 className="text-[2rem] font-bold mb-5" data-aos="fade">
+            MAGNUS DESK ADD-ONS
+          </h3>
+          <div
+            className="flex items-center justify-start flex-col gap-5 text-black bg-white p-5 rounded-lg max-w-1/2 lg:max-w-1/3"
+            data-aos="fade"
+            data-aos-delay="300"
+          >
             <Image
               src={mousepad}
               alt="Secretlab MAGNUS Metal Desk"
@@ -95,6 +119,7 @@ export function Mesa() {
         quality={100}
         priority
         className="w-full max-w-[800pc] p-5"
+        data-aos="fade-left"
       />
     </section>
   );
