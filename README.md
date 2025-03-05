@@ -1,5 +1,3 @@
-# Vamos criar o conteúdo do arquivo README.md com as instruções solicitadas.
-
 readme_content = """
 
 # Secretlab x Attack on Titan - Réplica
