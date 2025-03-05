@@ -23,10 +23,6 @@ Este projeto é uma réplica da página **Secretlab x Attack on Titan**, desenvo
 ![Imagem 6](https://i.imgur.com/OrZFWI5.png)
 ![Imagem 7](https://i.imgur.com/1A0sMdJ.png)
 
-## Status
-
-✅ Concluído
-
 ## Licença
 
 Este projeto foi desenvolvido para fins educacionais e não tem afiliação com a Secretlab ou Attack on Titan.
