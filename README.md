@@ -1,5 +1,3 @@
-readme_content = """
-
 # Secretlab x Attack on Titan - Réplica
 
 Este projeto é uma réplica da página **Secretlab x Attack on Titan**, desenvolvi ela com o objetivo de aprimorar minhas habilidades com **Next.js** e **Tailwind CSS**. A réplica busca capturar a estética e funcionalidades do design original, utilizando práticas modernas de desenvolvimento web.
@@ -32,4 +30,3 @@ Este projeto é uma réplica da página **Secretlab x Attack on Titan**, desenvo
 ## Licença
 
 Este projeto foi desenvolvido para fins educacionais e não tem afiliação com a Secretlab ou Attack on Titan.
-"""
