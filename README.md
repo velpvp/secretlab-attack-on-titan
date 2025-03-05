@@ -8,8 +8,13 @@ Este projeto é uma réplica da página **Secretlab x Attack on Titan**, desenvo
 
 ## Imagens do Projeto
 
-![Imagem 1](caminho-para-imagem-1.png)
-![Imagem 2](caminho-para-imagem-2.png)
+![Imagem 1](https://i.imgur.com/fEFvIYG.png)
+![Imagem 2](https://i.imgur.com/2SLchv0.png)
+![Imagem 3](https://i.imgur.com/jKSlGnH.png)
+![Imagem 4](https://i.imgur.com/CBMaH5A.png)
+![Imagem 5](https://i.imgur.com/nDjOSmM.png)
+![Imagem 6](https://i.imgur.com/OrZFWI5.png)
+![Imagem 7](https://i.imgur.com/1A0sMdJ.png)
 
 ## Tecnologias
 
